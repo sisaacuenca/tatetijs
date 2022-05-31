@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.tablero {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  background-color: red;
+  margin: 0 auto;
+  padding: 20px;
+  padding-top: 100px;
+  width: 500px;
+  height: 500px;
+}
+button {
+  margin-left: 2rem;
+  height: 100px;
+  width: 100px;
+}
